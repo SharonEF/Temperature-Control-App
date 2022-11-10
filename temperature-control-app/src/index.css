@@ -1,0 +1,86 @@
+body {
+  background-image: url("cloudy sky.jpg"), url("sunny day.jpg") ;
+ background-position: right,left;
+ background-size: 50%,50%;
+ background-repeat: no-repeat;
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+heading { 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: larger;
+  font-style: italic;
+  font: bold;
+  color: rgb(4, 50, 51);
+
+}
+
+.app-container {
+  height: 480px;
+  width: 350px;
+  background: #580787;
+  border-radius: 20px;
+  box-shadow: 10px 10px 38px 0px rgba(0, 0, 0, 0.75);
+}
+
+.temperature-display-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+}
+
+.temperature-display {
+  display: flex;
+  border-radius: 50%;
+  color: #efebeb;
+  height: 220px;
+  width: 220px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  border: 3px #7e07d8 solid;
+  transition: background 0.5s;
+}
+
+button {
+  border-radius: 100px;
+  height: 80px;
+  width: 80px;
+  font-size: 32px;
+  color: #0f0f0f;
+  background: rgb(239, 12, 205);
+  border: 2px #050505 solid;
+}
+
+button:hover {
+  background: rgb(23, 200, 232);
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.cold {
+  background: #0860ee;
+}
+
+.hot {
+  background: #f20e1d;
+}
