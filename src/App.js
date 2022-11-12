@@ -2,15 +2,14 @@ import Button from './components/Button';
 
 const App = () => {
  return (
- <div>
-  
+   <div>
       <div>
       <heading>Remote to Control Temperature</heading>
        <Button /> 
       </div>
 
-</div> 
-);
+   </div> 
+ );
 }
 
 export default App;
