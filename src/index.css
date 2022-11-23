@@ -1,8 +1,7 @@
 body {
-  background-image: url("cloudy sky.jpg"), url("sunny day.jpg") ;
- background-position: right,left;
- background-size: 50%,50%;
- background-repeat: no-repeat;
+  background-position: right, left;
+  background-size: 50%, 50%;
+  background-repeat: no-repeat;
   font-family: sans-serif;
   text-align: center;
   display: flex;
@@ -13,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-heading { 
+heading {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: larger;
   font-style: italic;
